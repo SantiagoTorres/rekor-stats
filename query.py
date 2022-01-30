@@ -108,7 +108,7 @@ if __name__ == "__main__":
     # determine total number of records currently in database
     output = subprocess.check_output(["rekor-cli", "loginfo"])
     # TODO: make parsing less brittle
-    height = 2 # int(output.decode("utf-8").split("\n")[1].split()[2].strip())
+    height = int(output.decode("utf-8").split("\n")[1].split()[2].strip())
     print(f"log height: {height}")
 
     # check cache and print count of records requiring download
