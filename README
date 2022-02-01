@@ -1,0 +1,32 @@
+# Download and analyze Rekor data
+
+Objectives:
+
+- Download data from Rekor database
+- Enrich data
+- Analyze data, creating tables and graphs
+- (Potentially) Create live dashboard from data
+
+## Download dependencies
+
+```
+pip install -r requirements.txt
+```
+
+## Instructions for downloading data
+
+(Requires internet connection)
+
+Run:
+```
+python query.py
+```
+
+## Other instructions forthcoming
+
+## Instructions for running tests (WIP)
+
+Run:
+```
+pytest
+```
